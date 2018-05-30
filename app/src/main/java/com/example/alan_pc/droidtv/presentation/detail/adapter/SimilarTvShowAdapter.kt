@@ -9,7 +9,7 @@ import com.example.alan_pc.droidtv.domain.business.tmdb.TvShow
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_tv_show_card.view.*
 
-class SimilarTvShowAdapter(val tvShowList: MutableList<TvShow>, val listener: (TvShow) -> Unit) : RecyclerView.Adapter<SimilarTvShowAdapter.ViewHolder>() { //TODO IMPROVE A GENERAL ADAPTER FOR TV SHOWS AND GET ONE LAYOUT OR ANOTHER FOR ANY CASE
+class SimilarTvShowAdapter(val tvShowList: MutableList<TvShow>, val listener: (TvShow) -> Unit) : RecyclerView.Adapter<SimilarTvShowAdapter.ViewHolder>() { //TODO IMPROVE A GENERAL ADAPTER FOR TV SHOWS AND GET ONE LAYOUT OR ANOTHER (no time to do it!)
 
     fun addTvShowsToList(tvShowList: MutableList<TvShow>){
         this.tvShowList.addAll(tvShowList)
