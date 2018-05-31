@@ -9,9 +9,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
+            android:lineSpacingExtra="3dp"
             android:textAlignment="textStart"
             android:layout_margin="@dimen/margin_general_between_items"
             android:layout_marginBottom="@dimen/margin_general_layout"
+            android:textSize="16dp"
+            android:textStyle="normal"
             android:textColor="@color/colorWhite"
             android:id="@+id/textViewOverview"
             android:layout_width="match_parent"

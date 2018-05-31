@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin_general_between_items"
-        android:textSize="18dp"
+        android:textSize="24dp"
         android:textStyle="bold"
         android:text="TITLE:" />
 </FrameLayout>
