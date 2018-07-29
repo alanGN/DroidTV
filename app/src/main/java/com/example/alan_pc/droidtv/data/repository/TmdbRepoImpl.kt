@@ -7,9 +7,7 @@ import com.example.alan_pc.droidtv.domain.business.tmdb.TmdbRepo
 import io.reactivex.Observable
 import javax.inject.Inject
 
-/**
- * Created by jcarballo on 03/04/2018.
- */
+
 class TmdbRepoImpl @Inject constructor(val tmdbApi: TmdbApi) : TmdbRepo {
 
     override fun getTvShows(page:String): Observable<TvShowResponseDto> {
